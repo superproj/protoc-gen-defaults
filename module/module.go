@@ -22,7 +22,7 @@ import (
 	pgs "github.com/lyft/protoc-gen-star"
 	pgsgo "github.com/lyft/protoc-gen-star/lang/go"
 
-	"go.linka.cloud/protoc-gen-defaults/defaults"
+	"github.com/superproj/protoc-gen-defaults/defaults"
 )
 
 func Defaults() *Module {

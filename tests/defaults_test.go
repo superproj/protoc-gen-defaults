@@ -25,8 +25,8 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"go.linka.cloud/protoc-gen-defaults/defaults"
-	"go.linka.cloud/protoc-gen-defaults/tests/pb"
+	"github.com/superproj/protoc-gen-defaults/defaults"
+	"github.com/superproj/protoc-gen-defaults/tests/pb"
 )
 
 var (

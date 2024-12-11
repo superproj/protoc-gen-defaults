@@ -22,7 +22,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"go.linka.cloud/protoc-gen-defaults/defaults"
+	"github.com/superproj/protoc-gen-defaults/defaults"
 )
 
 // Heavily taken from https://github.com/envoyproxy/protoc-gen-validate/blob/main/module/checker.go

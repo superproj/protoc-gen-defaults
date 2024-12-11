@@ -16,7 +16,7 @@ syntax = "proto3";
 
 package tests;
 
-option go_package = "go.linka.cloud/protoc-gen-defaults/tests/pb";
+option go_package = "github.com/superproj/protoc-gen-defaults/tests/pb";
 
 import "defaults/defaults.proto";
 

@@ -15,7 +15,7 @@
 syntax = "proto2";
 package defaults;
 
-option go_package = "go.linka.cloud/protoc-gen-defaults/defaults;defaults";
+option go_package = "github.com/superproj/protoc-gen-defaults/defaults;defaults";
 
 import "google/protobuf/descriptor.proto";
 

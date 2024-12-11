@@ -13,7 +13,7 @@ type Defaulter interface {
 ## Installation
 
 ```bash
-go get go.linka.cloud/protoc-gen-defaults
+go get github.com/superproj/protoc-gen-defaults
 ```
 
 ## Usage
@@ -205,7 +205,7 @@ syntax = "proto3";
 
 package tests;
 
-option go_package = "go.linka.cloud/protoc-gen-defaults/tests/pb;pb";
+option go_package = "github.com/superproj/protoc-gen-defaults/tests/pb;pb";
 
 import "defaults/defaults.proto";
 
@@ -290,7 +290,7 @@ package main
 
 import (
 	pb "..."
-	"go.linka.cloud/protoc-gen-defaults/defaults"
+	"github.com/superproj/protoc-gen-defaults/defaults"
 )
 
 func main() {

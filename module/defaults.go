@@ -23,7 +23,7 @@ import (
 	pgs "github.com/lyft/protoc-gen-star"
 	"github.com/prometheus/common/model"
 
-	"go.linka.cloud/protoc-gen-defaults/defaults"
+	"github.com/superproj/protoc-gen-defaults/defaults"
 )
 
 func (m *Module) genFieldDefaults(f pgs.Field, genOneOfField ...bool) (string, bool) {
